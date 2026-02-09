@@ -1,5 +1,5 @@
 {
-	"name": "pushkin",
+	"name": "@asmelabs/pushkin",
 	"version": "0.0.0-alpha.2",
 	"main": "dist/index.js",
 	"module": "dist/index.js",
