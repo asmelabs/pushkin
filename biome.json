@@ -7,7 +7,7 @@
 	},
 	"files": {
 		"ignoreUnknown": false,
-		"includes": ["**", "!.changeset"]
+		"includes": ["**", "!.changeset", "!.github", "!.vscode"]
 	},
 	"formatter": {
 		"enabled": true,
