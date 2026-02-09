@@ -25,7 +25,8 @@
 		"prepare": "husky",
 		"release": "bun run build && changeset publish",
 		"version-packages": "changeset version",
-		"build": "tsup"
+		"build": "tsup",
+		"check": "biome check --write ."
 	},
 	"lint-staged": {
 		"*.{ts,tsx,js,jsx,json,css,md}": [
