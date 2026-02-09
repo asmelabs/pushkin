@@ -1,0 +1,40 @@
+name: Crash Report
+description: Pushkin crashes or throws an unhandled error
+labels: ["bug", "crash"]
+body:
+  - type: textarea
+    id: code
+    attributes:
+      label: Code That Caused the Crash
+      description: Paste the .push code that triggered the crash.
+      render: text
+    validations:
+      required: true
+
+  - type: textarea
+    id: stacktrace
+    attributes:
+      label: Stack Trace
+      description: Paste the full error output and stack trace.
+      render: text
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Pushkin Version
+      placeholder: "0.0.1-alpha.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating System
+      options:
+        - macOS
+        - Linux
+        - Windows
+    validations:
+      required: true
