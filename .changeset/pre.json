@@ -1,8 +1,10 @@
 {
-	"mode": "pre",
-	"tag": "alpha",
-	"initialVersions": {
-		"pushkin": "0.0.0-alpha.1"
-	},
-	"changesets": []
+  "mode": "pre",
+  "tag": "alpha",
+  "initialVersions": {
+    "pushkin": "0.0.0-alpha.1"
+  },
+  "changesets": [
+    "plenty-clocks-lick"
+  ]
 }
