@@ -18,6 +18,7 @@ export class Lexer {
 			// skip whitespace
 			if (char === " " || char === "\t" || char === "\r") {
 				this.advance();
+				continue;
 			}
 
 			// Newlines
@@ -25,21 +26,25 @@ export class Lexer {
 				this.line++;
 				this.column = 1;
 				this.pos++;
+				continue;
 			}
 
 			// Single-line comments
 			if (char === "/" && this.source[this.pos + 1] === "/") {
 				this.skipComment();
+				continue;
 			}
 
 			// Numbers
 			if (this.isDigit(this.charAt(this.pos))) {
 				this.readNumber();
+				continue;
 			}
 
 			// Identifiers and keywords
 			if (this.isAlpha(this.charAt(this.pos))) {
 				this.readIdentifier();
+				continue;
 			}
 
 			// Single character tokens
