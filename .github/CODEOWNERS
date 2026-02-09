@@ -1,0 +1,13 @@
+# Default owner for everything
+* @mehdiasadli
+
+# Core language
+/src/lexer/ @mehdiasadli
+/src/parser/ @mehdiasadli
+/src/interpreter/ @mehdiasadli
+
+# CI and release
+/.github/ @mehdiasadli
+
+# Documentation
+README.md @mehdiasadli
