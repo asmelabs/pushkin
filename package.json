@@ -49,7 +49,8 @@
 		"release": "bun run build && changeset publish",
 		"version-packages": "changeset version",
 		"build": "tsup",
-		"check": "biome check --write ."
+		"check": "biome check --write .",
+		"test": "bun test"
 	},
 	"lint-staged": {
 		"*.{ts,tsx,js,jsx,json,css,md}": [
