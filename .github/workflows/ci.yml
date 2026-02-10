@@ -21,6 +21,9 @@ jobs:
 
       - name: Lint
         run: bunx biome check .
+      
+      - name: Test
+        run: bun test
 
       - name: Build
         run: bun run build
