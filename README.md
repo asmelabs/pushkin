@@ -1,3 +1,7 @@
+[![CI](https://github.com/asmelabs/pushkin/actions/workflows/ci.yml/badge.svg)](https://github.com/asmelabs/pushkin/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/@asmelabs/pushkin)](https://www.npmjs.com/package/@asmelabs/pushkin)
+[![license](https://img.shields.io/github/license/asmelabs/pushkin)](./LICENSE)
+
 # Pushkin
 
 A simple, interpreted programming language written in TypeScript.

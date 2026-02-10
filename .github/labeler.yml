@@ -1,0 +1,22 @@
+lexer:
+  - changed-files:
+      - any-glob-to-any-file: "src/lexer/**"
+
+parser:
+  - changed-files:
+      - any-glob-to-any-file: "src/parser/**"
+
+interpreter:
+  - changed-files:
+      - any-glob-to-any-file: "src/interpreter/**"
+
+docs:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "*.md"
+          - "docs/**"
+          - "examples/**"
+
+ci:
+  - changed-files:
+      - any-glob-to-any-file: ".github/workflows/**"
