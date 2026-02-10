@@ -2,9 +2,10 @@
   "mode": "pre",
   "tag": "alpha",
   "initialVersions": {
-    "pushkin": "0.0.0-alpha.1"
+    "pushkin": "0.0.0-alpha.1",
+    "@asmelabs/pushkin": "0.0.0-alpha.2"
   },
   "changesets": [
-    "plenty-clocks-lick"
+    "short-kids-decide"
   ]
 }
