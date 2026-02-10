@@ -1,0 +1,13 @@
+// Basic arithmetic with variables
+new x = 100;
+new y = 42;
+
+new sum = x + y;
+new diff = x - y;
+
+print(sum);
+print(diff);
+
+// Chained operations
+new result = 10 + 20 - 5 + 3 - 1;
+print(result);

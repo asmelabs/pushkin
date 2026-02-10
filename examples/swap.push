@@ -1,0 +1,13 @@
+// Swapping two values using a temp variable
+new a = 10;
+new b = 20;
+
+print(a);
+print(b);
+
+new temp = a;
+a = b;
+b = temp;
+
+print(a);
+print(b);

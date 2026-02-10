@@ -1,0 +1,5 @@
+// sum two numbers and print the result
+new a = 10;
+new b = 20;
+new sum = a + b;
+print(sum);
