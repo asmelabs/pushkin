@@ -57,5 +57,8 @@
 			"biome check --write ."
 		]
 	},
-	"type": "module"
+	"type": "module",
+	"bin": {
+		"pushkin": "dist/cli.js"
+	}
 }
